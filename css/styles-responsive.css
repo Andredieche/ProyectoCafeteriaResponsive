@@ -1,3 +1,19 @@
+.burguer-button {
+    width: 40px;
+    border-radius: 50%;
+    line-height: 35px;
+    height: 40px;
+    text-align: center;
+    background: #dd944c;
+    display: inline-block;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    z-index: 3;
+}
+
+
+
 /* 768 para tablets y esta dentro de los 800px que vamos a trabajar */
 @media screen and (max-width: 800px) {
     /* portada */
@@ -140,11 +156,41 @@ input[type="email"]{
 /* Celulares */
 @media screen and (max-width: 500px) {
 /* PORTADA */
+.portada .button {
+    display: block;
+}
+
+.portada .contenedor {
+    position: static;
+}
+.menu {
+    /* border: 1px solid tomato; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: -100%;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(156, 84, 12, 0.8);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+}
+
+.menu.active {
+    left:0;
+}
+
 .menu li {
     display: block;
     margin: 0;
     padding: 8px 0;
     border-bottom: 1px solid white;
+}
+
+.menu ul {
+    flex: 1; /* hace que lo items home, cafes y precios tomen todo le ancho de la pantalla*/
 }
 
 .menu li:first-child {
