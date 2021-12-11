@@ -168,6 +168,23 @@ input[type="email"]{
 .portada .contenedor {
     position: static;
 }
+/* PAGINA DE PRECIOS */
+.header {
+    position: static;
+}
+.header .contenedor {
+    position: static;
+}
+.titulo-precio {
+    font-size: 32px;
+}
+
+.titulo-precio img {
+    width: 60px;
+}
+
+/* FIN PÁGINA DE PRECIOS */
+
 .menu {
     /* border: 1px solid tomato; */
     position: fixed;
