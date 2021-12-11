@@ -10,6 +10,7 @@
     left: 20px;
     top: 20px;
     z-index: 3;
+    display: none;
 }
 
 
@@ -160,12 +161,16 @@ input[type="email"]{
     display: block;
 }
 
+.burguer-button {
+    display: block;
+}
+
 .portada .contenedor {
     position: static;
 }
 .menu {
     /* border: 1px solid tomato; */
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     left: -100%;
