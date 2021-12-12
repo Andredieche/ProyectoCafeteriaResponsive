@@ -95,13 +95,15 @@ input[type='checkbox']:checked:after {
 .title-b {
   font-size: 50px;
   margin-bottom: 20px;
+  position: relative;
+  right: 23px;
 }
 
 .cafes {
   margin-top: 60px;
   margin-bottom: -60px;
   color: #412B19;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 
 /* SELECTOR DESCENDENTE */
@@ -181,6 +183,7 @@ input[type='checkbox']:checked:after {
 .left {
   float: left;
   position: relative;
+  bottom: 80px;
 
 }
 
